@@ -1,0 +1,6 @@
+#!/bin/sh
+
+cd "$(dirname "$0")" || exit 1
+
+./gradlew -q installDist
+exec ./build/install/pft/bin/pft "$@"

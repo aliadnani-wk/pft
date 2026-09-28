@@ -1,0 +1,3 @@
+type,amount,description,timestamp,category
+EXPENSE,1.50,Breakfast,2024-03-01T08:00:00,Food
+INCOME,99,Refund,2024-03-02T09:00:00,
